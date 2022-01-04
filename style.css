@@ -7,7 +7,10 @@ body{
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
 }
-section{
+.ps-3{
+    padding-left: 3rem;
+}
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -24,14 +27,15 @@ section{
     background-image: linear-gradient(rgb(255, 152, 34),rgba(216, 57, 29, 0.856));
     padding: 10px 20px;
     border-radius: 5px;
-  
-
 }
 h1{
     font-size: 3rem;
 }
+h2{
+    font-size: 2rem;
+}
 h3{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 p{
     margin: 30px 0px;
@@ -41,7 +45,7 @@ p{
     margin-right: 80px;
 }
 
-.orange_color{
+.orange-color{
     color: orangered;
 
 }
@@ -54,4 +58,34 @@ p{
     background-image: url(./img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(./img/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.experience-item{
+    width: 40%;
+   margin: 0 5%;
+   padding-left: 2%;
+   border-radius: 5px;
+   box-shadow: 5px 10px 30px rgb(48, 48, 28);
+}
+.webdev-exp1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+}
+.webdev-exp2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(rgb(32, 173, 255),#1b5edb);
+    border-image-slice: 1;
+}
+footer p{
+    margin: 20px;
+    margin-top: 5%;
+    text-align: center;
+}
+footer{
+   background-color: rgba(235, 232, 232, 0.925);
 }
